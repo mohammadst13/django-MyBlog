@@ -1,3 +1,22 @@
 body {
-  background-color: #fff75f;
+  background-color: #58380a;
+  background-image: url(/static/stars.jpg);
+  color: #a9a9a9;
+  background-repeat: no-repeat;
+  background-size: 120% 130%;
+  background-attachment: fixed;
+}
+
+body *{
+  font-family: arial;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+a,a:hover,a:visited {
+  color: #bd7263;
+  text-decoration: none;
 }
