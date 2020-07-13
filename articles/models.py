@@ -14,5 +14,5 @@ class Article(models.Model):
         return self.body[:50] + " ..."
 
     date = models.DateTimeField(auto_now_add=True)
-    # add thumbnail
+    image = models.ImageField(default='default.jpg',blank=True)
     # add auther
